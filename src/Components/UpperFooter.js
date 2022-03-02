@@ -9,24 +9,26 @@ const UpperFooter = () => {
           <p>A108 Adam Street NY 535022, USA</p>
           <p>Phone: +1 5589 55488 55 </p>
           <p> Email :info@example.com</p>
+          <i class="fa-brands fa-github-square"></i>
         </div>
+
         <div className="col-md-3">
-          <h5>Useful Links</h5>
+          <h5>Our Services</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Home</a>
+              <a href="#!">Web Design</a>
             </li>
             <li>
-              <a href="#!">About us</a>
+              <a href="#!">Web Development</a>
             </li>
             <li>
-              <a href="#!">Services</a>
+              <a href="#!">Product Management</a>
             </li>
             <li>
-              <a href="#!">Terms of Services</a>
+              <a href="#!"> Marketing</a>
             </li>
             <li>
-              <a href="#!">Privacy and policys</a>
+              <a href="#!">Graphic Designs</a>
             </li>
           </ul>
         </div>
@@ -63,7 +65,7 @@ const UpperFooter = () => {
               aria-describedby="basic-addon2"
             />
             <div class="input-group-append">
-              <button class="btn btn-sm btn-outline-primary " type="button">
+              <button className="btn btn-sm btn-outline-primary " type="button">
                 Subscribe
               </button>
             </div>

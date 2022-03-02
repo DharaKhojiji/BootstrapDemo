@@ -101,7 +101,9 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            <button type="button" class="btn btn-outline-secondary">
+          </ul>
+          <ul className="btn_ul">
+            <button type="button" className="btn btn-outline-secondary">
               Book A Table
             </button>
           </ul>

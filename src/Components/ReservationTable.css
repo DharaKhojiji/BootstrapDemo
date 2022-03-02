@@ -1,0 +1,36 @@
+#res_table {
+  border-bottom: 10px;
+  border-color: #cda45e;
+  background-color: black;
+}
+.table-descs {
+  color: #cda45e;
+}
+.row {
+  padding: 10px;
+  margin-top: 30px;
+}
+input,
+textarea {
+  height: 45px;
+  width: 100%;
+  background-color: white;
+}
+textarea {
+  height: 90px;
+}
+button {
+  width: 50% !important;
+  margin-left: 25%;
+  margin-bottom: 20px;
+  color: white;
+  background: #cda45e !important;
+  border-radius: 50px !important;
+  padding: 12px 35px;
+}
+input,
+textarea {
+  border-radius: 5px;
+  border-color: #cda45e;
+  background-color: black;
+}
